@@ -1,7 +1,7 @@
 package javaweb.DTO;
 
 public class BuildingDTO {
-	private Integer id;
+	private Integer numberOfBasement;
 	private String name;
 	private String address;
 	
@@ -9,19 +9,19 @@ public class BuildingDTO {
 		// TODO Auto-generated constructor stub
 	}
 
-	public BuildingDTO(Integer id, String name, String address) {
+	public BuildingDTO(Integer numberOfBasement, String name, String address) {
 		super();
-		this.id = id;
+		this.numberOfBasement = numberOfBasement;
 		this.name = name;
 		this.address = address;
 	}
 
-	public Integer getId() {
-		return id;
+	public Integer getNumberOfBasement() {
+		return numberOfBasement;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setNumberOfBasement(Integer numberOfBasement) {
+		this.numberOfBasement = numberOfBasement;
 	}
 
 	public String getName() {
@@ -42,7 +42,7 @@ public class BuildingDTO {
 
 	@Override
 	public String toString() {
-		return "BuildingDTO [id=" + id + ", name=" + name + ", address=" + address + "]";
+		return "BuildingDTO [numberofbasement=" +numberOfBasement + ", name=" + name + ", address=" + address + "]";
 	}
 
 }
