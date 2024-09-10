@@ -27,7 +27,8 @@ public class ControllerAdvisor extends ResponseEntityExceptionHandler {
 	public ResponseEntity<Object> handleFieldRequireExceptionEntity (FieldRequireException ex) {
 		ErrorResponse errorResponse = new ErrorResponse();
 		errorResponse.setCode("Bad Request");
-		errorResponse.setDetail(ex.getMessage());
+		errorResponse.setDetail(ex.getMessage()); 
+		
 		return new ResponseEntity<Object>(errorResponse, HttpStatus.BAD_REQUEST);
 	}
 }
