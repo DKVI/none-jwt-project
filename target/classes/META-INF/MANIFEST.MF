@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Built-By: as
+Build-Jdk: 22.0.2
+Class-Path: spring-boot-starter-web-services-2.0.9.RELEASE.jar spring-bo
+ ot-starter-2.0.9.RELEASE.jar spring-boot-starter-logging-2.0.9.RELEASE.
+ jar logback-classic-1.2.3.jar logback-core-1.2.3.jar slf4j-api-1.7.26.j
+ ar log4j-to-slf4j-2.10.0.jar log4j-api-2.10.0.jar jul-to-slf4j-1.7.26.j
+ ar javax.annotation-api-1.3.2.jar spring-core-5.0.13.RELEASE.jar spring
+ -jcl-5.0.13.RELEASE.jar snakeyaml-1.19.jar spring-boot-starter-web-2.0.
+ 9.RELEASE.jar spring-boot-starter-json-2.0.9.RELEASE.jar jackson-databi
+ nd-2.9.8.jar jackson-annotations-2.9.0.jar jackson-core-2.9.8.jar jacks
+ on-datatype-jdk8-2.9.8.jar jackson-datatype-jsr310-2.9.8.jar jackson-mo
+ dule-parameter-names-2.9.8.jar spring-boot-starter-tomcat-2.0.9.RELEASE
+ .jar tomcat-embed-core-8.5.39.jar tomcat-embed-el-8.5.39.jar tomcat-emb
+ ed-websocket-8.5.39.jar hibernate-validator-6.0.16.Final.jar validation
+ -api-2.0.1.Final.jar jboss-logging-3.3.2.Final.jar classmate-1.3.4.jar 
+ spring-web-5.0.13.RELEASE.jar spring-webmvc-5.0.13.RELEASE.jar spring-e
+ xpression-5.0.13.RELEASE.jar spring-oxm-5.0.13.RELEASE.jar spring-beans
+ -5.0.13.RELEASE.jar spring-ws-core-3.0.7.RELEASE.jar spring-xml-3.0.7.R
+ ELEASE.jar spring-aop-5.0.13.RELEASE.jar commons-io-2.5.jar mysql-conne
+ ctor-java-5.1.47.jar spring-boot-devtools-2.0.9.RELEASE.jar spring-boot
+ -2.0.9.RELEASE.jar spring-context-5.0.13.RELEASE.jar spring-boot-autoco
+ nfigure-2.0.9.RELEASE.jar
+Implementation-Title: none-jwt-project
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.khacvi
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/java-spring-boot
+Main-Class: javaweb.Application
+Created-By: Maven Integration for Eclipse
+
